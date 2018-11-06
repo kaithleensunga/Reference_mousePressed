@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>mousePressed</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
 	</head>
 	<body>
-		<header>
+		<header>int circleX;
+int circleY;
+int bounce;
+
+void setup() {
+  size(600, 600);
+  background(0);
+}
+
+void draw() {
+  fill(123, 243, 15);
+  ellipse(circleX, circleY, 20, 20);
+  circleX=circleX+5;
+  circleY=circleY-5;
+
+
+
+  ellipse(baLLL, 300, 50, 50);
+
+  if (x<0) 
+    circleX=15;
+    
+    
+  }
+
 			<h1>Headline</h1>
 		</header>
 			<section id="content">
